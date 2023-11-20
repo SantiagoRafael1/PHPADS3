@@ -1,0 +1,28 @@
+{
+    "name": "rafa/aulamvc",
+    "description": "Aula MVC",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rafael Santiago",
+            "email": "rafaelsantiagope@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4":{
+            "Rafa\\Aulamvc\\": "src/",
+            "app\\":"app/",
+            "core\\":"core/"
+        },
+
+        "files":[
+            "config/config.php"
+        ]
+
+
+    }
+}
